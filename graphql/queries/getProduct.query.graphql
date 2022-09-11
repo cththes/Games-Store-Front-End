@@ -1,0 +1,32 @@
+query getProduct($id: ID) {
+  product(id: $id) {
+    data {
+      id
+      attributes {
+        Price
+        Currency
+        Name
+        Description
+        Date
+        LargeImg {
+          data {
+            id
+            attributes {
+              name
+              url
+            }
+          }
+        }
+        Screenshots {
+          data {
+            id
+            attributes{
+              name
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

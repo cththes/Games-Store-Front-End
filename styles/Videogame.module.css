@@ -1,0 +1,22 @@
+.product{
+   
+}
+
+.artwork{
+   width:600px;
+}
+
+.description{
+   width:600px;
+}
+
+.screenshots{
+   display:flex;
+   flex-direction: wrap;
+   width:100px;
+}
+
+.screenshot{
+   width:200px;
+   margin: 4px;
+}
