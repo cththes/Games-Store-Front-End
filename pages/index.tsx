@@ -1,6 +1,7 @@
 import Pictures from "../components/pictures";
 import NoSSR from "../components/NoSSR"
 import Upload from "../components/Upload";
+import Videogames from "../components/videogames";
 
 const index = () => {
 
@@ -10,8 +11,7 @@ const index = () => {
             Главная страница
          </h1>
          <NoSSR>
-            <Upload />
-            <Pictures />
+            <Videogames />
          </NoSSR>  
       </div>
    )
